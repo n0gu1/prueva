@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mayor.css">
+    <title>Mayor</title>
+</head>
+<body>
+    <form action="">
+        <div class="contenedor">
+            <div id="mover">
+            
+                <input type="text" class="titulo" style=" position: absolute; top: 49px; left: 150px; width: 276px;">
+                
+                <input type="text" class="debe" id="debe"  oninput="sumard()" style=" position: absolute; top: 70px; left: 150px;">
+                <input type="text" class="debe" id="debe2" oninput="sumard()" style=" position: absolute; top: 91px; left: 150px;">
+                <input type="text" class="debe" id="debe3" oninput="sumard()" style=" position: absolute; top: 111px; left: 150px;">
+                <input type="text" class="debe" id="debe4" oninput="sumard()" style=" position: absolute; top: 131px; left: 150px;">
+                <input type="text" class="debe" id="debe5" oninput="sumard()" style=" position: absolute; top: 151px; left: 150px;">
+                <input type="text" class="debe" id="debe6" oninput="sumard()" style=" position: absolute; top: 171px; left: 150px; border-bottom: 2px solid black;">
+                <input type="text" class="debe" id="total" oninput="sumard()" style=" position: absolute; top: 191px; left: 150px;">
+                <input type="text" class="debe" id="diferencia" style=" position: absolute; top: 211px; left: 150px;">
+
+
+                <input type="text" class="haber" id="haber"  oninput="sumarh()" style=" position: absolute; top: 70px; left: 288px;">
+                <input type="text" class="haber" id="haber2" oninput="sumarh()"  style=" position: absolute; top: 91px; left: 288px;">
+                <input type="text" class="haber" id="haber3" oninput="sumarh()"  style=" position: absolute; top: 111px; left: 288px;">
+                <input type="text" class="haber" id="haber4" oninput="sumarh()"  style=" position: absolute; top: 131px; left: 288px;">
+                <input type="text" class="haber" id="haber5" oninput="sumarh()"  style=" position: absolute; top: 151px; left: 288px;">
+                <input type="text" class="haber" id="haber6" oninput="sumarh()"  style=" position: absolute; top: 171px; left: 288px; border-bottom: 2px solid black;">
+                <input type="text" class="haber" id="total2" oninput="sumarh()"  style=" position: absolute; top: 191px; left: 288px;">
+                <input type="text" class="haber" id="diferencia2" style=" position: absolute; top: 211px; left: 288px;">
+
+                <hr style="width: 0.1px; height: 159px; display: inline-block; position: absolute; top: 65px; left: 287px; border: 2px solid black;">
+            </div>
+        </div>
+    </form>
+
+    <header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+	</header>
+	<div class="capa"></div>
+        <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+	    <div class="cont-menu">
+            <nav>
+            <a href="index.html">Incio</a>
+            <a href="diario.html">Partidas de Ajuste</a>
+            <a href="mayor.html">Libro Mayor</a>
+            <a href="#">Balance Inicial de Saldos</a>
+            <a href="#">Balance de Saldos Ajustados</a>
+            <a href="#">Estado de Resultados</a>
+            <a href="#">Balance General</a>
+            <a href="#">Nosotros</a>
+            </nav>
+            <label for="btn-menu">✖️</label>
+	    </div>
+    </div>
+
+    <div class="titulo3">
+        <p>Libro Mayor</p>
+        <hr>
+    </div>
+    
+
+    <div class="encabezado">
+        .
+    </div>
+
+    <script src="mayor.js" ></script>
+</body>
+<footer>
+    <div class="encabezado2">
+        .
+    </div>
+</footer>
+</html>
